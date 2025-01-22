@@ -1,0 +1,12 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 767px) {
+  .containerProject {
+    padding-top: 0rem;
+  }
+}

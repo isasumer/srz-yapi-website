@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+  .aboutContainer {
+    padding-top: 1rem;
+  }
+
+  .textAboutContainer {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+  }
+  .textContainer{
+    font-size: 12px;
+  }
+}
