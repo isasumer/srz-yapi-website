@@ -46,7 +46,7 @@ function About () {
             <Image
               src={aboutImage}
               className='rounded-xl'
-              alt='Baş Altyapı İnşaat şirketine ait görsel'
+              alt='SRZ şirketine ait görsel'
             />
           </div>
         </div>
