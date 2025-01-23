@@ -10,14 +10,14 @@ function About () {
   return (
     <>
       <Head>
-        <title>Hakkımızda -SRZ Cam Balkon Sistemleri        </title>
+        <title>Hakkımızda -SRZ Cam Balkon Sistemleri </title>
         <meta
           name='description'
           content='SRZ Cam Balkon Sistemleri profesyonel hizmet sunuyoruz. Projelerimiz hakkında bilgi alın.'
         />
         <meta
           name='keywords'
-          content='altyapı, inşaat, altyapı projeleri, Baş Altyapı İnşaat'
+          content='cam, Sineklik Sistemleri, Kış Bahçesi Sistemleti, Giyotin Cam Balkon Sistemleri'
         />
         <meta name='author' content='Baş Altyapı İnşaat A.Ş.' />
         <link rel='canonical' href='https://example.com/#about' />
@@ -28,9 +28,7 @@ function About () {
       >
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
           <div className='col-span-2'>
-            <p className='textHead'>
-              Hakkımızda
-            </p>
+            <p className='textHead'>Hakkımızda</p>
             <h1 className='textAboutContainer py-4'>
               Baş Altyapı İnşaat Şirketi
             </h1>
