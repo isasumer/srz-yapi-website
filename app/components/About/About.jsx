@@ -13,7 +13,7 @@ function About () {
         <title>Hakkımızda -SRZ Cam Balkon Sistemleri        </title>
         <meta
           name='description'
-          content='Baş Altyapı İnşaat Şirketi olarak altyapı inşaat projelerinde profesyonel hizmet sunuyoruz. Projelerimiz hakkında bilgi alın.'
+          content='SRZ Cam Balkon Sistemleri profesyonel hizmet sunuyoruz. Projelerimiz hakkında bilgi alın.'
         />
         <meta
           name='keywords'
