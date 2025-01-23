@@ -10,7 +10,7 @@ function About () {
   return (
     <>
       <Head>
-        <title>Hakkımızda - Baş Altyapı İnşaat A.Ş.</title>
+        <title>Hakkımızda -SRZ Cam Balkon Sistemleri        </title>
         <meta
           name='description'
           content='Baş Altyapı İnşaat Şirketi olarak altyapı inşaat projelerinde profesyonel hizmet sunuyoruz. Projelerimiz hakkında bilgi alın.'
