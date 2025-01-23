@@ -30,7 +30,7 @@ function About () {
           <div className='col-span-2'>
             <p className='textHead'>Hakkımızda</p>
             <h1 className='textAboutContainer py-4'>
-              Baş Altyapı İnşaat Şirketi
+              SRZ Cam Balkon Sistemleri
             </h1>
             <Text />
             <Link href='/#projects'>
