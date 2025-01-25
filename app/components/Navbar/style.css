@@ -1,11 +1,14 @@
+.navbarWrapper {
+  margin-top: 50px;
+}
+
 .navbarContainer {
   color: black;
-  margin-top: 47px;
   width: 100%;
   max-width: 100%;
-  box-sizing: border-box;
-  background-size: cover;
-  background-position: bottom;
+}
+.srzLogoContiner {
+  margin-left: 28px;
 }
 
 .menuLogo {
@@ -34,7 +37,7 @@
     max-width: 100%;
   }
   .srzLogoContiner {
-    width: 150px;
+    width: 80px;
   }
   .menuLogo {
     display: block;

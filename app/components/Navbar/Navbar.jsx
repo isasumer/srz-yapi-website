@@ -17,9 +17,9 @@ function Navbar () {
   }
 
   return (
-    <header>
+    <header className='navbarWrapper'>
       <nav
-        className='navbarContainer'
+        className='navbarContainer shadow-xl shadow-gray-400'
         role='navigation'
         aria-label='Main Navigation'
       >
@@ -29,8 +29,8 @@ function Navbar () {
             <Image
               src='/assets/srzYapiLogo.png'
               alt='SRZ Yapı Logo'
-              width={400}
-              height={100}
+              width={130}
+              height={130}
               className='srzLogoContiner cursor-pointer'
               priority
             />

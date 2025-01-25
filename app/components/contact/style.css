@@ -13,3 +13,10 @@ body {
   background-color: #002050;
   transform: scale(1.05);
 }
+
+@media (max-width: 767px) {
+  .contactWrapper{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}

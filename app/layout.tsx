@@ -14,15 +14,15 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'SRZ Yapı | Güvenilir İnşaat Çözümleri',
+  title: 'SRZ Yapı | Cam Balkon ve Kış Bahçesi Sistemleri',
   description:
-    'SRZ Yapı olarak inşaat projelerinde kaliteli ve güvenilir çözümler sunuyoruz. Detaylı bilgi için sayfamızı ziyaret edin.',
-  keywords: 'inşaat, altyapı, SRZ Yapı, güvenilir çözümler, projeler',
+  'SRZ cam yapı sektöründe cam balkon ve kış bahçesi sistemleri ile hizmet vermektedir. Güvenilir çözümler ve projeler için bizi arayın.',
+  keywords: 'cam balkon, kış bahçesi, SRZ cam, güvenilir çözümler, projeler',
   authors: [{ name: 'Ramazan Çakırdım ', url: 'https://www.srzyapi.com.tr' }],
   openGraph: {
-    title: 'SRZ Yapı | Güvenilir İnşaat Çözümleri',
+    title: 'SRZ cam | Güvenilir Çözümler ve Projeler',
     description:
-      'SRZ Yapı olarak inşaat projelerinde kaliteli ve güvenilir çözümler sunuyoruz.',
+    'SRZ cam yapı sektöründe cam balkon ve kış bahçesi sistemleri ile hizmet vermektedir.Cam balkon ve kış bahçesi sistemleri için bizi arayın.',
     url: 'https://www.srzyapi.com.tr',
     siteName: 'SRZ Yapı',
     images: [

@@ -81,7 +81,7 @@ const Contact = () => {
         <link rel='canonical' href='https://example.com/#contact' />
       </Head>
       <section id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
+        <div className='contactWrapper max-w-[1240px] m-auto px-2 py-16 w-full'>
           <h1 className='textHead'>
             BİZE ULAŞIN
           </h1>
