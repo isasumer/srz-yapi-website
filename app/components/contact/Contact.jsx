@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React, { useState } from 'react'
-import Cimen from '../../../public/assets/SrzProjectImage/Image11.jpeg'
+import Balkon from '../../../public/assets/SrzProjectImage/Image11.jpeg'
 import Map from '../Map'
 import Head from 'next/head'
 import './style.css'
@@ -75,7 +75,7 @@ const Contact = () => {
         />
         <meta
           name='keywords'
-          content='iletişim, altyapı inşaat, srz, cam balkon, cam, pimapen inşaat, iletişim formu'
+          content='iletişim, srz yapı, srz, cam balkon, cam,Pergola Sistemleri, iletişim formu'
         />
         <meta name='author' content='Srz Yapı' />
         <link rel='canonical' href='https://example.com/#contact' />
@@ -92,8 +92,8 @@ const Contact = () => {
                 <div>
                   <Image
                     className='rounded-xl hover:scale-105 ease-in duration-300'
-                    src={Cimen}
-                    alt="SRZ Yapı İnşaat'a ait bir proje görseli"
+                    src={Balkon}
+                    alt="SRZ Yapı'ya ait bir proje görseli"
                   />
                 </div>
                 <div>

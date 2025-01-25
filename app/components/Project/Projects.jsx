@@ -2,16 +2,16 @@
 
 import Head from 'next/head'
 import Image from 'next/image'
-import Imagecar from '../../../public/assets/SrzProjectImage/Image1.jpeg'
-import Tunel from '../../../public/assets/SrzProjectImage/Image2.jpeg'
-import Cukur from '../../../public/assets/SrzProjectImage/Image3.jpeg'
-import Bahce from '../../../public/assets/SrzProjectImage/Image4.jpeg'
-import Kuyu from '../../../public/assets/SrzProjectImage/Image5.jpeg'
-import Mazgal from '../../../public/assets/SrzProjectImage/Image6.jpeg'
-import Merdiven from '../../../public/assets/SrzProjectImage/Image7.jpeg'
-import Kaldirim from '../../../public/assets/SrzProjectImage/Image8.jpeg'
-import Agac from '../../../public/assets/SrzProjectImage/Image12.jpeg'
-import Boru from '../../../public/assets/SrzProjectImage/Image10.jpeg'
+import CamBalkon from '../../../public/assets/SrzProjectImage/Image1.jpeg'
+import BoydanCam from '../../../public/assets/SrzProjectImage/Image2.jpeg'
+import GlassBalcony from '../../../public/assets/SrzProjectImage/Image3.jpeg'
+import CamBalkon2 from '../../../public/assets/SrzProjectImage/Image4.jpeg'
+import CamBalkon3 from '../../../public/assets/SrzProjectImage/Image5.jpeg'
+import KisBahcesi from '../../../public/assets/SrzProjectImage/Image6.jpeg'
+import KisBahcesi2 from '../../../public/assets/SrzProjectImage/Image7.jpeg'
+import KisBahcesi3 from '../../../public/assets/SrzProjectImage/Image8.jpeg'
+import GlassBalcony2 from '../../../public/assets/SrzProjectImage/Image12.jpeg'
+import KatlanirCamBalkon from '../../../public/assets/SrzProjectImage/Image10.jpeg'
 // import Boru from '../../../public/assets/SrzProjectImage/Image10.jpeg'
 // import Boru from '../../../public/assets/SrzProjectImage/Image10.jpeg'
 import { Carousel } from 'antd'
@@ -46,11 +46,11 @@ const SliderItem = ({ images }) => {
 function Projects () {
 
   const slides = [
-    [Mazgal, Bahce],
-    [Imagecar, Tunel],
-    [Merdiven, Kuyu],
-    [Cukur, Kaldirim],
-    [Boru, Agac]
+    [KisBahcesi, CamBalkon2],
+    [CamBalkon, BoydanCam],
+    [KisBahcesi2, CamBalkon3],
+    [GlassBalcony, KisBahcesi3],
+    [KatlanirCamBalkon, GlassBalcony2]
   ]
 
   const mobileSlides = slides.flat().map(image => [image])
@@ -58,23 +58,23 @@ function Projects () {
   return (
     <>
       <Head>
-        <title>Projelerimiz - Altyapı İnşaat Hizmetleri</title>
+        <title>Projelerimiz - Cam Balkon Sistem Hizmetleri</title>
         <meta
           name='description'
-          content='Altyapı inşaat projelerimiz hakkında bilgi alın. Mazgal, tünel, bahçe düzenlemesi ve diğer hizmetlerimiz hakkında daha fazla bilgi edinin.'
+          content='Cam Balkon Sistem projelerimiz hakkında bilgi alın. Kış bahçesi, sineklik, pergola sistemleri ve diğer hizmetlerimiz hakkında daha fazla bilgi edinin.'
         />
         <meta
           name='keywords'
-          content='altyapı inşaat, mazgal, tünel, bahçe düzenlemesi'
+          content='Cam Balkon Sistemi, Kış bahçesi, sineklik, pergola sistemleri'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta
           property='og:title'
-          content='Projelerimiz - Altyapı İnşaat Hizmetleri'
+          content='Projelerimiz - Cam Balkon Hizmetleri'
         />
         <meta
           property='og:description'
-          content='Mazgal, tünel ve diğer altyapı projelerimiz hakkında daha fazla bilgi edinin.'
+          content='Kış bahçesi, sineklik ve diğer Cam Balkon projelerimiz hakkında daha fazla bilgi edinin.'
         />
         <meta property='og:type' content='website' />
       </Head>

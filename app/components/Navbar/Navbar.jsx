@@ -31,7 +31,7 @@ function Navbar () {
               alt='SRZ Yapı Logo'
               width={400}
               height={100}
-              className='basLogoContiner cursor-pointer'
+              className='srzLogoContiner cursor-pointer'
               priority
             />
           </Link>
@@ -56,7 +56,7 @@ function Navbar () {
       <div
         className={`${
           nav
-            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-800 dark:bg-slate-50 p-10 z-[1000]'
+            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-50 dark:bg-slate-800 p-10 z-[1000]'
             : 'fixed left-[-100%] top-0 p-10 bg-slate-50 dark:bg-slate-800'
         }`}
         role='dialog'
