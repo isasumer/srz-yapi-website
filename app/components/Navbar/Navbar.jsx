@@ -28,7 +28,7 @@ function Navbar () {
           <Link href='/' aria-label='Navigate to Home'>
             <Image
               src='/assets/srzYapiLogo.png'
-              alt='Basalt Yapı Logo'
+              alt='SRZ Yapı Logo'
               width={400}
               height={100}
               className='basLogoContiner cursor-pointer'
