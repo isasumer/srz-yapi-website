@@ -1,6 +1,5 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Imagecar from '../../../public/assets/SrzProjectImage/Image1.jpeg'
