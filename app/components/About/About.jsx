@@ -19,7 +19,7 @@ function About () {
           name='keywords'
           content='cam, Sineklik Sistemleri, Kış Bahçesi Sistemleti, Giyotin Cam Balkon Sistemleri'
         />
-        <meta name='author' content='Baş Altyapı İnşaat A.Ş.' />
+        <meta name='author' content='Srz Yapı' />
         <link rel='canonical' href='https://example.com/#about' />
       </Head>
       <div

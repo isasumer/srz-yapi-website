@@ -4,7 +4,7 @@ import React from 'react'
 import { PhoneOutlined } from '@ant-design/icons'
 
 function CallNumber () {
-  const number = ' +90 551 052 95 16'
+  const number = ' +90 542 397 41 00'
 
   const handleCopy = () => {
     navigator.clipboard

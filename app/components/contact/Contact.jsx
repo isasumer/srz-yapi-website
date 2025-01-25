@@ -68,16 +68,16 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>İletişim - Baş Altyapı İnşaat A.Ş.</title>
+        <title>İletişim - SRZ Yapı</title>
         <meta
           name='description'
-          content='Baş Altyapı İnşaat ile iletişime geçin. Sorularınızı sorun veya proje detayları hakkında bilgi alın.'
+          content='Srz Yapı İnşaat ile iletişime geçin. Sorularınızı sorun veya proje detayları hakkında bilgi alın.'
         />
         <meta
           name='keywords'
-          content='iletişim, altyapı inşaat, baş altyapı inşaat, iletişim formu'
+          content='iletişim, altyapı inşaat, srz, cam balkon, cam, pimapen inşaat, iletişim formu'
         />
-        <meta name='author' content='Baş Altyapı İnşaat A.Ş.' />
+        <meta name='author' content='Srz Yapı' />
         <link rel='canonical' href='https://example.com/#contact' />
       </Head>
       <section id='contact' className='w-full lg:h-screen'>
@@ -93,7 +93,7 @@ const Contact = () => {
                   <Image
                     className='rounded-xl hover:scale-105 ease-in duration-300'
                     src={Cimen}
-                    alt="Baş Altyapı İnşaat'a ait bir proje görseli"
+                    alt="SRZ Yapı İnşaat'a ait bir proje görseli"
                   />
                 </div>
                 <div>
@@ -116,7 +116,7 @@ const Contact = () => {
                   <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className='flex flex-col'>
                       <label htmlFor='name' className='text-sm py-2'>
-                        İSİM-SOYİSİM
+                       Ad Soyad 
                       </label>
                       <input
                         className='border-2 rounded-lg p-3 flex border-gray-300'
@@ -132,7 +132,7 @@ const Contact = () => {
                     </div>
                     <div className='flex flex-col'>
                       <label htmlFor='phoneNumber' className='text-sm py-2'>
-                        TELEFON NUMARASI
+                       Telefon Numarası
                       </label>
                       <input
                         className='border-2 rounded-lg p-3 flex border-gray-300'
@@ -149,7 +149,7 @@ const Contact = () => {
                   </div>
                   <div className='flex flex-col py-2'>
                     <label htmlFor='email' className='text-sm py-2'>
-                      E-MAİL
+                     E-mail
                     </label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
@@ -162,7 +162,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col py-2'>
-                    <label className='uppercase text-sm py-2'>KONU</label>
+                    <label className='uppercase text-sm py-2'>Konu</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
@@ -172,7 +172,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col py-2'>
-                    <label className='text-sm py-2'>MESAJ</label>
+                    <label className='text-sm py-2'>Mesaj</label>
                     <textarea
                       className='border-2 rounded-lg p-3 border-gray-300'
                       rows='10'
@@ -185,7 +185,7 @@ const Contact = () => {
                     type='submit'
                     className='w-full p-4 text-white bg-blue-600 rounded-lg mt-4 hover:bg-blue-700'
                   >
-                    GÖNDER
+                    Gönder
                   </button>
                 </form>
                 {successMessage && (

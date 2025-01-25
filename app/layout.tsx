@@ -14,23 +14,23 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'SRZ yapı | Güvenilir İnşaat Çözümleri',
+  title: 'SRZ Yapı | Güvenilir İnşaat Çözümleri',
   description:
-    'Baş Alt Yapı olarak inşaat projelerinde kaliteli ve güvenilir çözümler sunuyoruz. Detaylı bilgi için sayfamızı ziyaret edin.',
-  keywords: 'inşaat, altyapı, Baş Alt Yapı, güvenilir çözümler, projeler',
-  authors: [{ name: 'Erdal Baş', url: 'https://www.basaltyapi.com' }],
+    'SRZ Yapı olarak inşaat projelerinde kaliteli ve güvenilir çözümler sunuyoruz. Detaylı bilgi için sayfamızı ziyaret edin.',
+  keywords: 'inşaat, altyapı, SRZ Yapı, güvenilir çözümler, projeler',
+  authors: [{ name: 'Ramazan Çakırdım ', url: 'https://www.srzyapi.com.tr' }],
   openGraph: {
-    title: 'Baş Alt Yapı | Güvenilir İnşaat Çözümleri',
+    title: 'SRZ Yapı | Güvenilir İnşaat Çözümleri',
     description:
-      'Baş Alt Yapı olarak inşaat projelerinde kaliteli ve güvenilir çözümler sunuyoruz.',
-    url: 'https://www.basaltyapi.com',
-    siteName: 'Baş Alt Yapı',
+      'SRZ Yapı olarak inşaat projelerinde kaliteli ve güvenilir çözümler sunuyoruz.',
+    url: 'https://www.srzyapi.com.tr',
+    siteName: 'SRZ Yapı',
     images: [
       {
         url: '/assets/bas-alt-yapi-preview.png',
         width: 1200,
         height: 630,
-        alt: 'Baş Alt Yapı Görseli'
+        alt: 'SRZ Yapı Görseli'
       }
     ],
     locale: 'tr_TR',

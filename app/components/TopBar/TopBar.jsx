@@ -12,10 +12,10 @@ function TopBar () {
     <div className='containerTopBar'>
       <CallNumber />
       <div className='notification'>
-        <div className='email hidden md:block'>basaltyapi@gmail.com</div>
+        {/* <div className='email hidden md:block'>basaltyapi@gmail.com</div> */}
         <div className='socialmedia'>
           <a
-            href='https://www.instagram.com/erdalbas62/?igsh=MWxmcmp6b2xuNGh5aA%3D%3D#'
+            href='https://www.instagram.com/srzyapi?igsh=MWcyc3NmMTRnc2Zp'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -24,7 +24,7 @@ function TopBar () {
           <FacebookOutlined style={{ color: '#002050', fontSize: '24px' }} />
           <a
             className='linkWrapper'
-            href=' https://wa.me/905510529516'
+            href=' https://wa.me/905423974100'
             target='blank'
             rel='noopener noreferrer'
             aria-label='WhatsApp üzerinden bizimle iletişime geçin'
