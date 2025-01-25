@@ -53,11 +53,12 @@ function Navbar () {
       </nav>
 
       {/* Mobile Menu */}
+      {/*  dark:bg-slate-800 */}
       <div
         className={`${
           nav
-            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-50 dark:bg-slate-800 p-10 z-[1000]'
-            : 'fixed left-[-100%] top-0 p-10 bg-slate-50 dark:bg-slate-800'
+            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-50 p-10 z-[1000]'
+            : 'fixed left-[-100%] top-0 p-10 bg-slate-50'
         }`}
         role='dialog'
         aria-modal='true'
@@ -65,9 +66,10 @@ function Navbar () {
       >
         <div className='flex w-full items-center pt-3'>
           {/* Close Button */}
+          {/* dark:text-white */}
           <button
             onClick={handleNav}
-            className='closeIcon rounded-full shadow-lg ml-auto shadow-gray-400 p-3 cursor-pointer text-black dark:text-white'
+            className='closeIcon rounded-full shadow-lg ml-auto shadow-gray-400 p-3 cursor-pointer text-black'
             aria-label='Close navigation menu'
           >
             <CloseOutlined />
@@ -80,10 +82,11 @@ function Navbar () {
           </h2>
           <ul className='uppercase'>
             {NAVBAR_LINKS.map(link => (
+              // dark:text-white
               <li
                 key={link.href}
                 onClick={() => setNav(false)}
-                className='py-4 text-sm text-black dark:text-white'
+                className='py-4 text-sm text-black'
               >
                 <Link href={link.href}>
                   <div aria-label={`Navigate to ${link.label}`}>
