@@ -17,7 +17,7 @@ function About () {
         />
         <meta
           name='keywords'
-          content='Cam, Sineklik Sistemleri, Kış Bahçesi Sistemleti, Giyotin Cam Balkon Sistemleri'
+          content='Cam, Sineklik Sistemleri, Kış Bahçesi Sistemleri, Giyotin Cam Balkon Sistemleri'
         />
         <meta name='author' content='Srz Yapı' />
         <link rel='canonical' href='https://example.com/#about' />

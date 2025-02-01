@@ -5,7 +5,7 @@ function Services () {
   const List = [
     'Katlanır & Sürme Cam Balkon Sistemleri',
     'Sineklik Sistemleri',
-    'Kış Bahçesi Sistemleti',
+    'Kış Bahçesi Sistemleri',
     'Giyotin Cam Balkon Sistemleri',
     'Pergola Sistemleri',
   ]
